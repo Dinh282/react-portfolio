@@ -72,11 +72,13 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-      <Navbar />
-      <main className="mx-3">
-        <Outlet />
-      </main>
-      <Footer />
+      <div className='flex flex-col min-h-screen'>
+        <Navbar />
+        <main className="flex-1 flex flex-col justify-center items-center p-4">
+          <Outlet />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }

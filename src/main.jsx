@@ -6,8 +6,8 @@ import App from './App.jsx'
 import { BrowserRouter} from "react-router-dom"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Navbar from './components/Navbar.jsx';
-import Footer from './Footer';
+// import Navbar from './components/Navbar.jsx';
+// import Footer from './Footer';
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        path: '/About',
+        path: '/About', 
         element: <About />,
       },
       {

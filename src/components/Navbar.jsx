@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <>
       <div>
-        <nav className="navbar bg-base-100">
+        <nav className="navbar bg-primary bg-base-100">
           <div className="flex-1">
             <h1 className="text-6xl text-red-600 p-6"> Dinh Nguyen</h1>
           </div>
