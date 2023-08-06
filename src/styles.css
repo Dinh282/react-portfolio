@@ -9,3 +9,19 @@
 
 
 
+.navbar-end {
+    display: none;
+  }
+  
+  /* Show the drop down menu icon when the screen size is 600px or smaller */
+  @media (max-width: 600px) {
+    .navbar-end {
+      display: flex;
+    }
+
+     .nav-list {
+      display: none;  
+    }
+  }
+
+ 

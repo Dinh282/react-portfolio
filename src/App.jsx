@@ -35,18 +35,50 @@
 // export default App
 
 
-import { useState } from 'react'
-import './styles.css';
-import Navbar from './Navbar';
+// import { useState } from 'react'
+// import './styles.css';
+// import Navbar from './Navbar';
+// import Footer from './Footer';
+// import About from './pages/About'
+// import Contact from './pages/Contact'
+// import Portfolio from './pages/Portfolio'
+// import Resume from './pages/Resume'
 
+
+
+
+// function App() {
+//     // const [count, setCount] = useState(0)
+//     window.location.pathname
+  
+//     return (
+//       <>
+//        <Navbar />
+//        <Footer />
+//       </>
+//     )
+//   }
+  
+//   export default App
+
+
+// Bringing in the required import from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import './styles.css';
+import Footer from './Footer';
 
 function App() {
-    const [count, setCount] = useState(0)
-  
-    return (
-       <Navbar />
-    
-    )
-  }
-  
-  export default App
+  // The Outlet component will conditionally swap between the different pages according to the URL
+  return (
+    <>
+      <Navbar />
+      <main className="mx-3">
+        <Outlet />
+      </main>
+      <Footer />
+    </>
+  );
+}
+
+export default App;
