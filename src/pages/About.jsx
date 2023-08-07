@@ -2,7 +2,7 @@ export default function About() {
   return (
     <>
       <div className="flex flex-col justify-center items-center space-y-4 mx-auto w-[80%]">
-        <h1 className="text-4xl text-white underline decoration-1 py-4">About Me</h1>
+        <h1 className="text-4xl text-black dark:text-white underline decoration-1 py-4">About Me</h1>
         <div className="bg-img" role="img" aria-label="brick wall painted blue">
           <img
             src="./src/assets/images/avatar.jpg"

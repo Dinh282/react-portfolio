@@ -70,7 +70,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import Project from '../components/Project';
-
+import {NextArrow, PrevArrow } from '../components/Arrows';
 
 const projects = [
             {
@@ -103,6 +103,9 @@ export default class CenterMode extends Component {
       autoplay: true,
       autoplaySpeed: 3000,
       cssEase: "linear",
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />,
+
       responsive: [
         {
           breakpoint: 1024,
