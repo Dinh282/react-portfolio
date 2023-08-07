@@ -14,7 +14,7 @@
   }
   
   /* Show the drop down menu icon when the screen size is 600px or smaller */
-  @media (max-width: 600px) {
+  @media (max-width: 970px) {
     .navbar-end {
       display: flex;
     }

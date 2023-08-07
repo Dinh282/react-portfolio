@@ -96,7 +96,7 @@ export default class CenterMode extends Component {
       className: "center",
       centerMode: true,
       infinite: true,
-      centerPadding: "10px",
+      centerPadding: "60px",
       slidesToShow:3,
       speed: 2000,
       dots: true,
@@ -134,11 +134,11 @@ export default class CenterMode extends Component {
 
     return (
         <>
-        <div className="">
-      <div className="pt-10 px-10">
+        <div className="container mx-auto">
+      <div className="pt-10">
         <h2>Projects</h2>
         <Slider {...settings}>
-          <div>
+          <div className="bg-white">
             <div>
             <h3>1</h3>
             {projects.map((project, index) => (

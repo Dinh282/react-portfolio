@@ -41,7 +41,7 @@ function Form() {
 
   return (
     <div className="container mx-auto max-w-lg p-4 mt-10 mb-10  border rounded-lg bg-white">
-      <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
+      <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
       <form onSubmit={handleFormSubmit}>
         <div className="mb-4">
           <label htmlFor="name" className="block text-sm font-medium text-gray-700">
