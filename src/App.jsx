@@ -74,7 +74,7 @@ function App() {
     <>
       <div className='flex flex-col min-h-screen'>
         <Navbar />
-        <main className="flex-1 flex flex-col justify-center items-center p-4">
+        <main className="flex-1">
           <Outlet />
         </main>
         <Footer />
