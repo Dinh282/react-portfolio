@@ -1,3 +1,8 @@
+import Forms from '../components/Forms';
+
 export default function Contact() {
-    return <h1>Contact</h1>
+    return (
+    <Forms />
+    
+    )
 }
