@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Project = ({ title, description, imageUrl, liveUrl, githubUrl }) => (
-  <div className="relative bg-white rounded-lg overflow-hidden shadow-md border-2 border-gray-300 px-2 h-[600px]">
+  <div className="relative bg-white rounded-lg overflow-hidden shadow-md border-2 border-gray-300 px-2 h-[600px] ">
     <div
       className="h-64 bg-cover bg-center rounded-t-lg w-full mt-2"
       style={{ backgroundImage: `url(${imageUrl})` }}

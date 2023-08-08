@@ -28,9 +28,11 @@
  /* Style the default dots */
  .slick-slider .slick-dots li button:before {
   color: #3182ce; /* Blue color */
+  margin-top: 20px;
 }
 
 /* Style the active dot */
 .slick-slider .slick-dots li.slick-active button:before {
   color: #0a04c4; /* Darker shade of blue for active dot */
+  margin-top: 20px;
 }

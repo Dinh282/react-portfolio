@@ -13,7 +13,7 @@ function NextArrow(props) {
           marginRight: '-15px',   
           background: 'blue',
           width: '40px', 
-          height: '40px',  }}
+          height: '80px',  }}
         onClick={onClick}
       />
     );
@@ -33,7 +33,7 @@ function NextArrow(props) {
           marginLeft: '-15px',   
           background: 'blue',
           width: '40px', 
-          height: '40px', }}
+          height: '80px', }}
         onClick={onClick}
       />
     );

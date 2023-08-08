@@ -50,10 +50,10 @@ const projects = [
           ];
     
 
-export default class CenterMode extends Component {
+export default class Portfolio extends Component {
   render() {
     const settings = {
-      className: "center",
+      focusOnSelect: true,
       centerMode: true,
       infinite: true,
       centerPadding: "60px",
@@ -65,7 +65,6 @@ export default class CenterMode extends Component {
       cssEase: "linear",
       nextArrow: <NextArrow />,
       prevArrow: <PrevArrow />,
-      // adaptiveHeight: true,
       responsive: [
         {
           breakpoint: 1400,
