@@ -51,6 +51,8 @@ Screenshot of :
 
 10. https://uxwing.com/react-js-icon/ (Svg Icons)
 
+11. https://blog.logrocket.com/deploying-react-apps-github-pages/ (Help with deploying to Github Pages)
+
 8. Instructor, TAs, and classmates.
 
 ## Questions
