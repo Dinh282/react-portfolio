@@ -2,14 +2,14 @@ export default function About() {
   return (
     <>
       <div className="flex flex-col justify-center items-center space-y-4 mx-auto w-[80%]">
-        <h1 className="text-4xl text-black dark:text-white underline decoration-1 py-4">About Me</h1>
+        <h1 className="text-4xl dark:text-white text-black underline decoration-1 py-4">About Me</h1>
         <div className="bg-img" role="img" aria-label="brick wall painted blue">
           <img
             src="./src/assets/images/avatar.jpg"
             alt="avatar/photo of webpage author"
           />
         </div>
-        <p className="pb-10 text-lg text-gray">
+        <p className="pb-10 text-lg text-gray dark:text-white">
           I am a current student in the UNC coding bootcamp program, focusing on
           developing my skills in full stack development. So far, I have gained
           knowledge in HTML, CSS, API(client and server side), Jquery,
