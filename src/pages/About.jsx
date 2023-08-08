@@ -1,8 +1,12 @@
+import { AnimatedPage } from "../components/PageAnimations";
+
 export default function About() {
   return (
-    <>
+    <AnimatedPage>
       <div className="flex flex-col justify-center items-center space-y-4 mx-auto w-[80%]">
-        <h1 className="text-4xl dark:text-white text-black underline decoration-1 py-4">About Me</h1>
+        <h1 className="text-4xl dark:text-white text-black underline decoration-1 py-4">
+          About Me
+        </h1>
         <div className="bg-img" role="img" aria-label="brick wall painted blue">
           <img
             src="./src/assets/images/avatar.jpg"
@@ -22,6 +26,6 @@ export default function About() {
           developer.
         </p>
       </div>
-    </>
+    </AnimatedPage>
   );
 }

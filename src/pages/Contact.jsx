@@ -1,8 +1,10 @@
-import Forms from '../components/Forms';
+import Forms from "../components/Forms";
+import { AnimatedPage } from "../components/PageAnimations";
 
 export default function Contact() {
-    return (
-    <Forms />
-    
-    )
+  return (
+    <AnimatedPage>
+      <Forms />
+    </AnimatedPage>
+  );
 }

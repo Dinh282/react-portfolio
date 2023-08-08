@@ -45,7 +45,11 @@ Screenshot of :
 
 7. https://tailwind-elements.com/docs/standard/components/carousel/#docsTabsOverview (Tailwind Docs)
 
-8. 
+8. https://www.youtube.com/watch?v=FdrEjwymzdY (Help with Framer Motion for page animation)
+
+9. https://www.framer.com/motion/ (Framer Motion Docs)
+
+10. https://uxwing.com/react-js-icon/ (Svg Icons)
 
 8. Instructor, TAs, and classmates.
 

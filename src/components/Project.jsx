@@ -11,12 +11,12 @@ const Project = ({ title, description, imageUrl, liveUrl, githubUrl }) => (
       <p className="text-gray-600 hover:text-gray-800 transition duration-300 truncate">
         {description}
       </p>
-      <div className="mt-4">
+      <div className="mt-4 hover:scale-110">
         <a
           href={liveUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-300 mr-2"
+          className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300 mr-2 "
         >
           Live
         </a>
@@ -24,7 +24,7 @@ const Project = ({ title, description, imageUrl, liveUrl, githubUrl }) => (
           href={githubUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600 transition duration-300"
+          className="bg-gray-600 text-white px-4 py-2 rounded-md hover:bg-gray-800 transition duration-300"
         >
           GitHub
         </a>
