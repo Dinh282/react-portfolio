@@ -7,28 +7,28 @@ export default function BackEndIcons () {
 
     return (
         <AnimateFromRight>
-          <div className="flex flex-wrap justify-center space-x-4 space-y-2">
-            <div className='animate-bounce' style={{ animationDelay: '0.5s' }}>
+          <div className="flex flex-wrap justify-center space-x-6 pb-5 space-y-2">
+            <div className='animate-bounce tooltip tooltip-info' data-tip="MySQL" style={{ animationDelay: '0.5s' }}>
             {mySvg.mysqlIcon()}
             </div>
         
-            <div className='animate-bounce' style={{ animationDelay: '0.3s' }}>
+            <div className='animate-bounce tooltip tooltip-info' data-tip="MongoDB" style={{ animationDelay: '0.3s' }}>
             {mySvg.mongodbIcon()}
             </div>
 
-           <div className='animate-bounce' style={{ animationDelay: '0' }}>
+           <div className='animate-bounce tooltip tooltip-info' data-tip="GraphQL" style={{ animationDelay: '0' }}>
             {mySvg.graphqlIcon()}
             </div>
 
-            <div className='animate-bounce' style={{ animationDelay: '0.3s' }}>
+            <div className='animate-bounce tooltip tooltip-info' data-tip="JWT" style={{ animationDelay: '0.3s' }}>
             {mySvg.jwtIcon()}
             </div>
 
-            <div className='animate-bounce' style={{ animationDelay: '0.5s' }}>
+            <div className='animate-bounce tooltip tooltip-info' data-tip="NodeJs" style={{ animationDelay: '0.5s' }}>
             {mySvg.nodejsIcon()}
             </div>
 
-            <div className='animate-bounce' style={{ animationDelay: '0.5s' }}>
+            <div className='animate-bounce tooltip tooltip-info' data-tip="" style={{ animationDelay: '0.5s' }}>
             {/* {mySvg.bootStrapIcon()} */}
             </div>
 

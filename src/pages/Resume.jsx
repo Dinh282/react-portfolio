@@ -15,22 +15,23 @@ export default function Resume() {
     <AnimatedPage>
       <div className="flex flex-col justify-center items-center space-y-4 mx-auto w-[80%] pt-6">
         <AnimateFromLeft>
-          <h1 className="text-4xl text-blue-500">Front-end</h1>
+          <h1 className="text-5xl text-blue-500">Front-end</h1>
         </AnimateFromLeft>
         <FrontEndIcons />
         
         <AnimateFromLeft>
-          <h1 className="text-4xl text-blue-500">Back-end</h1>
+          <h1 className="text-5xl text-blue-500">Back-end</h1>
         </AnimateFromLeft>
         <BackEndIcons />
 
         <AnimateFromLeft>
-          <h1 className="text-4xl text-blue-500">Tools</h1>
+          <h1 className="text-5xl text-blue-500">Tools</h1>
         </AnimateFromLeft>
         <ToolIcons />
 
-
+        <p>Icons used with the courtsey of <a target="_blank" href="https://icons8.com" className="link text-blue-600">Icons8</a></p>
       </div>
+      
     </AnimatedPage>
   );
 }
