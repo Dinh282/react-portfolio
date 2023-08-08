@@ -44,9 +44,9 @@ const projects = [
   {
     title: "Project 6",
     description: "Description of Project 6",
-    imageUrl: "url-to-image6.jpg",
-    liveUrl: "https://example.com/project2",
-    githubUrl: "https://github.com/user/project2",
+    imageUrl: "",
+    liveUrl: "",
+    githubUrl: "",
   },
 ];
 

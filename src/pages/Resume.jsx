@@ -15,17 +15,17 @@ export default function Resume() {
     <AnimatedPage>
       <div className="flex flex-col justify-center items-center space-y-4 mx-auto w-[80%] pt-6">
         <AnimateFromLeft>
-          <h1 className="text-5xl text-blue-500">Front-end</h1>
+          <div className="text-5xl text-blue-500">Front-end</div>
         </AnimateFromLeft>
         <FrontEndIcons />
         
         <AnimateFromLeft>
-          <h1 className="text-5xl text-blue-500">Back-end</h1>
+          <div className="text-5xl text-blue-500">Back-end</div>
         </AnimateFromLeft>
         <BackEndIcons />
 
         <AnimateFromLeft>
-          <h1 className="text-5xl text-blue-500">Tools</h1>
+          <div className="text-5xl text-blue-500">Tools</div>
         </AnimateFromLeft>
         <ToolIcons />
 
