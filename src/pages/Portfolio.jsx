@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Dear Diary",
     description: "APIs/Swiper/Mysql/Bcrypt/Bootstrap",
-    imageUrl: "./src/assets/images/dear-diary.jpg",
+    imageUrl: "/assets/dear-diary.jpg",
     liveUrl: "https://personal-journal-e23df6a117fd.herokuapp.com/",
     githubUrl: "https://github.com/Dinh282/personal-journal.git",
   },
