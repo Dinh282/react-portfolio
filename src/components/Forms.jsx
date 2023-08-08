@@ -30,7 +30,8 @@ function Form() {
       return;
     }
 
-    // TODO: Add the logic to handle the form submission (e.g., sending the data to a server or an API)
+    // TODO: Add the logic to handle the form submission (e.g., sending the data to a server or an API) 
+    // This TODO is not required since Netlify handles form submission we add appropriate attributes to the form tag.
 
     // If everything goes according to plan, Reset the form fields
     setName('');
@@ -41,8 +42,12 @@ function Form() {
 
   return (
     <div className="container mx-auto max-w-lg p-4 mt-10 mb-10  border rounded-lg bg-white border-black">
-      <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
-      <form onSubmit={handleFormSubmit}>
+      <h1 className="text-3xl font-bold mb-4 text-black">Contact Me</h1>
+      <form onSubmit={handleFormSubmit}
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field">
         <div className="mb-4">
           <label htmlFor="name" className="block text-sm font-medium text-gray-700">
             Name:
@@ -53,7 +58,7 @@ function Form() {
             onChange={handleInputChange}
             type="text"
             placeholder="Your name"
-            className="mt-1 p-2 border border-gray-700 bg-gray-300 rounded-md w-full"
+            className="mt-1 p-2 border border-black bg-gray-200 text-black placeholder-gray-400 rounded-md w-full"
           />
         </div>
         <div className="mb-4">
@@ -66,7 +71,7 @@ function Form() {
             onChange={handleInputChange}
             type="email"
             placeholder="Your email"
-            className="mt-1 p-2 border border-gray-700 bg-gray-300 rounded-md w-full"
+            className="mt-1 p-2 border border-black bg-gray-200 text-black placeholder-gray-400 rounded-md w-full"
           />
         </div>
         <div className="mb-4">
@@ -79,7 +84,7 @@ function Form() {
             onChange={handleInputChange}
             rows="6"
             placeholder="Leave your comment here"
-            className="mt-1 p-2 border border-gray-700 bg-gray-300 rounded-md w-full"
+            className="mt-1 p-2 border border-black bg-gray-200 text-black placeholder-gray-400 rounded-md w-full"
           />
         </div>
         <button

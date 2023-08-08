@@ -51,7 +51,9 @@ Screenshot of :
 
 10. https://uxwing.com/react-js-icon/ (Svg Icons)
 
-11. https://blog.logrocket.com/deploying-react-apps-github-pages/ (Help with deploying to Github Pages)
+11. https://vitejs.dev/guide/static-deploy.html#netlify (Help with deploying to Netlify)
+
+12. https://docs.netlify.com/forms/setup/ (Netlify docs helps with Netlify and )
 
 8. Instructor, TAs, and classmates.
 
