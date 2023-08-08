@@ -22,28 +22,29 @@ function Form() {
     }
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
+  // const handleFormSubmit = (e) => {
+  //   e.preventDefault();
 
-    if (!validateEmail(email) || !name || !comment) {
-      setErrorMessage('Please fill out all fields correctly.');
-      return;
-    }
+  //   if (!validateEmail(email) || !name || !comment) {
+  //     setErrorMessage('Please fill out all fields correctly.');
+  //     return;
+  //   }
 
     // TODO: Add the logic to handle the form submission (e.g., sending the data to a server or an API) 
     // This TODO is not required since Netlify handles form submission we add appropriate attributes to the form tag.
 
     // If everything goes according to plan, Reset the form fields
-    setName('');
-    setEmail('');
-    setComment('');
-    setErrorMessage('');
-  };
+  //   setName('');
+  //   setEmail('');
+  //   setComment('');
+  //   setErrorMessage('');
+  // };
 
   return (
     <div className="container mx-auto max-w-lg p-4 mt-10 mb-10  border rounded-lg bg-white border-black">
       <h1 className="text-3xl font-bold mb-4 text-black">Contact Me</h1>
-      <form onSubmit={handleFormSubmit}
+      {/* <form onSubmit={handleFormSubmit} */}
+      <form
       name="contact"
       method="POST"
       data-netlify="true"
