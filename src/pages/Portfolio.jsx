@@ -8,21 +8,21 @@ const projects = [
   {
     title: "Dear Diary",
     description: "APIs/Swiper/Mysql/Bcrypt/Bootstrap",
-    imageUrl: "/assets/dear-diary.jpg",
+    imageUrl: "/assets/images/dear-diary.jpg",
     liveUrl: "https://personal-journal-e23df6a117fd.herokuapp.com/",
     githubUrl: "https://github.com/Dinh282/personal-journal.git",
   },
   {
     title: "Sports Companion",
     description: "APIs/Tailwind/JQuery",
-    imageUrl: "./src/assets/images/sports-companion.png",
+    imageUrl: "/assets/images/sports-companion.png",
     liveUrl: "https://dinh282.github.io/sports-companion/",
     githubUrl: "https://github.com/Dinh282/sports-companion.git",
   },
   {
     title: "Weather Dashboard",
     description: "Bootstrap/CSS/Jquery/Third-Party-API",
-    imageUrl: "./src/assets/images/weather-dashboard.png",
+    imageUrl: "/assets/images/weather-dashboard.png",
     liveUrl:
       "https://example.https://dinh282.github.io/weather-dashboard//project2",
     githubUrl: "https://github.com/Dinh282/weather-dashboard.git",
@@ -30,14 +30,14 @@ const projects = [
   {
     title: "Tech Blog",
     description: "MySQL/Handlebars.js/JS/Bcrypt",
-    imageUrl: "./src/assets/images/tech-blog.png",
+    imageUrl: "/assets/images/tech-blog.png",
     liveUrl: "https://dn-tech-blog-91088954e7f1.herokuapp.com/",
     githubUrl: "https://github.com/Dinh282/tech-blog.git",
   },
   {
     title: "PWA Text Editor",
     description: "JS/IndexedDb API/PWA/Webpack",
-    imageUrl: "./src/assets/images/pwa-text-editor.png",
+    imageUrl: "/assets/images/pwa-text-editor.png",
     liveUrl: "https://still-anchorage-67038-17721ce39121.herokuapp.com/",
     githubUrl: "https://github.com/Dinh282/pwa-text-editor.git",
   },

@@ -9,7 +9,7 @@ export default function About() {
         </h1>
         <div className="bg-img" role="img" aria-label="brick wall painted blue">
           <img
-            src="./src/assets/images/avatar.jpg"
+            src="/assets/images/avatar.jpg"
             alt="avatar/photo of webpage author"
           />
         </div>
