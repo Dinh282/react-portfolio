@@ -48,14 +48,11 @@ function Form() {
   };
 
   const handleFormSubmit = (e) => {
-    e.preventDefault();
-
     if (!validateEmail(email) || !name || !message) {
+       e.preventDefault();
       setErrorMessage("Please fill out all fields correctly.");
       return;
-    } else {
-      window.location.reload();
-    }
+    } 
 
     // TODO: Add the logic to handle the form submission (e.g., sending the data to a server or an API)
     // This TODO is not required since Netlify handles form submission we add appropriate attributes to the form tag.
