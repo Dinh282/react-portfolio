@@ -1,7 +1,6 @@
 import {
   AnimatedPage,
   AnimateFromLeft,
-  AnimateFromRight,
 } from "../components/PageAnimations";
 
 import FrontEndIcons from "../components/FrontEndIcons";
