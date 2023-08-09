@@ -35,10 +35,10 @@ function Form() {
     // This TODO is not required since Netlify handles form submission we add appropriate attributes to the form tag.
 
     // If everything goes according to plan, Reset the form fields
-    setName('');
-    setEmail('');
-    setMessage('');
-    setErrorMessage('');
+    // setName('');
+    // setEmail('');
+    // setMessage('');
+    // setErrorMessage('');
   };
 
   return (
@@ -101,29 +101,7 @@ function Form() {
 
   );
 
-//   return (
-//     <form name="contact" method="POST" data-netlify="true">
-//     <input type="hidden" name="form-name" value="contact" />
-//   <p>
-//     <label>Your Name: <input type="text" name="name" /></label>
-//   </p>
-//   <p>
-//     <label>Your Email: <input type="email" name="email" /></label>
-//   </p>
-//   <p>
-//     <label>Your Role: <select name="role[]" multiple>
-//       <option value="leader">Leader</option>
-//       <option value="follower">Follower</option>
-//     </select></label>
-//   </p>
-//   <p>
-//     <label>Message: <textarea name="message"></textarea></label>
-//   </p>
-//   <p>
-//     <button type="submit">Send</button>
-//   </p>
-// </form>
-//   )
+
 }
 
 

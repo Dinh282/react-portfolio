@@ -55,7 +55,7 @@ Screenshot of :
 
 12. https://docs.netlify.com/forms/setup/ (Netlify docs helps with Netlify and )
 
-8. Instructor, TAs, and classmates.
+13. Instructor, TAs, and classmates.
 
 ## Questions
 Feel free to contact me at nguyen_dinh282@yahoo.com for additional information.  
