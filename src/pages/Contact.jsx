@@ -1,10 +1,10 @@
-import Forms from "../components/Forms";
+import Form from "../components/Forms";
 import { AnimatedPage } from "../components/PageAnimations";
 
 export default function Contact() {
   return (
     <AnimatedPage>
-      <Forms />
+      <Form />
     </AnimatedPage>
   );
 }
