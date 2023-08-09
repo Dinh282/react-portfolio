@@ -47,6 +47,10 @@ or view the demo video below:
 
 
 
+https://github.com/Dinh282/react-portfolio/assets/112836220/f05e5601-35df-42fe-a54e-0abd8681b120
+
+
+
 The following screenshots are of the webpages of the portfolio:
 
 Screenshot of About Me Page:
