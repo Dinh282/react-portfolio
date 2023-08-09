@@ -7,7 +7,7 @@ export default function About() {
         <h1 className="text-4xl dark:text-white text-black underline decoration-1 py-4">
           About Me
         </h1>
-        <div className="bg-img" role="img" aria-label="brick wall painted blue">
+        <div className="bg-img" role="img" aria-label="avatar">
           <img
             src="/assets/images/avatar.jpg"
             alt="avatar/photo of webpage author"
