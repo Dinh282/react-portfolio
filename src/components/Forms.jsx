@@ -23,7 +23,7 @@ function Form() {
   };
 
   const handleFormSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     // window.location.reload();
 
     if (!validateEmail(email) || !name || !message) {
