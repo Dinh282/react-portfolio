@@ -57,11 +57,11 @@ function Form() {
     // TODO: Add the logic to handle the form submission (e.g., sending the data to a server or an API)
     // This TODO is not required since Netlify handles form submission we add appropriate attributes to the form tag.
 
-    // If everything goes according to plan, Reset the form fields
-    setName("");
-    setEmail("");
-    setMessage("");
-    setErrorMessage("");
+    // If everything goes according to plan, Reset the form fields (exclude this code, causes netlify to not record values of name, email, and message as empty string)
+    // setName("");
+    // setEmail("");
+    // setMessage("");
+    // setErrorMessage("");
   };
 
   return (
