@@ -7,14 +7,13 @@
     <title>Dinh Nguyen</title>
   </head>
   <body>
-    
+<!-- We add this hidden form to help netlify detect our form code in jsx -->
 <form name="contact" netlify netlify-honeypot="bot-field" hidden>
   <input type="text" name="name" />
   <input type="email" name="email" />
   <textarea name="message"></textarea>
 </form>
-
-
+<!----------------------------------------------------------------------- -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
