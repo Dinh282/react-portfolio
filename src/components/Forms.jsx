@@ -24,6 +24,7 @@ function Form() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+    // window.location.reload();
 
     if (!validateEmail(email) || !name || !message) {
       setErrorMessage('Please fill out all fields correctly.');

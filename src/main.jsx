@@ -13,7 +13,7 @@ import Error from './pages/Error';
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
-    path: '/' ,
+    path: '' ,
     element: <App />,
     errorElement: <Error />,
     children: [
