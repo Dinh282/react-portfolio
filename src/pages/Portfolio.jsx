@@ -42,11 +42,11 @@ const projects = [
     githubUrl: "https://github.com/Dinh282/pwa-text-editor.git",
   },
   {
-    title: "Project 6",
-    description: "Description of Project 6",
-    imageUrl: "",
-    liveUrl: "",
-    githubUrl: "",
+    title: "Chore Buddy",
+    description: "GraphQl/React/JS/Ant Design/JWT",
+    imageUrl: "/assets/images/ss-landing-page.jpg",
+    liveUrl: "https://chore-buddy-6e6d2559dc60.herokuapp.com/",
+    githubUrl: "https://github.com/Dinh282/chore-buddy.git",
   },
 ];
 
