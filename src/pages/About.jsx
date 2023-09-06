@@ -13,17 +13,30 @@ export default function About() {
             alt="avatar/photo of webpage author"
           />
         </div>
-        <p className="pb-10 text-lg text-gray dark:text-white">
-          I am a current student in the UNC coding bootcamp program, focusing on
-          developing my skills in full stack development. So far, I have gained
-          knowledge in HTML, CSS, API(client and server side), Jquery,
-          Bootstrap, Tailwind, Git, and GitHub, which has allowed me to create
-          and manage websites. As I continue with the program, I am eager to
-          expand my skillset even further, with upcoming courses in Node.js,
-          React, and MERN Stack. I am passionate about utilizing technology to
-          solve problems and create user-friendly applications, and I am excited
-          about the opportunities that lie ahead in my journey as a full stack
-          developer.
+        <p className="pb-1 text-lg text-gray dark:text-white">
+          I'm thrilled to share that I've successfully completed the UNC Full Stack Coding Bootcamp and earned my certificate. With a solid foundation in 
+          web development, I am now actively seeking opportunities in the field, whether part-time or full-time, to further advance my skills and contribute
+          to exciting projects.
+        </p>
+
+        <p className="pb-1 text-lg text-gray dark:text-white">
+          During my bootcamp journey, I acquired a comprehensive set of skills, including proficiency in HTML, CSS, API (both client and server-side), jQuery,
+          Bootstrap, Tailwind, Git, GitHub, Node.js, React, and more. As I continue my gorwth in this dynamic field, I am excited about the prospect of diving deeper 
+          into these technologies.
+        </p>
+
+        <p className="pb-1 text-lg text-gray dark:text-white">
+          My passion lies in using technology to solve real-world problems and craft user-friendly applications. I believe in the power of clean, efficient code 
+          to make a difference, and I'm enthusiactic about the opportunities that lie ahead as i progress on my path as a full stack developer.
+        </p>
+
+        <p className="pb-1 text-lg text-gray dark:text-white">
+          Feel free to explore my portfolio to see examples of my work, and please don't hesitate to reach out if you'd like to connect or discuss potential 
+          collborations. I'm always open to new challenges and eager to take my knowledge and skills to the next level in the ever-evolving world of web development.
+        </p>
+
+        <p className="pb-5 text-lg text-gray dark:text-white">
+          Thank you for visiting, and I look forward to connecting with you!
         </p>
       </div>
     </AnimatedPage>

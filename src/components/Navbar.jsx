@@ -16,7 +16,7 @@ export default function Navbar() {
         <nav className='navbar h-[150px] relative' style={navbarStyle}>
         <div className="absolute inset-0 bg-black opacity-40"></div>
           <div className="flex-1 relative">
-            <h1 className="text-6xl md:text-6xl text-white p-6 font-bold tracking-wide"> Dinh Nguyen</h1>
+            <Link to='/'><h1 className="text-6xl md:text-6xl text-white p-6 font-bold tracking-wide"> Dinh Nguyen</h1></Link>
           </div>
           <div className="flex-none nav-list ">
             <ul className="menu menu-horizontal text-xl text-white p-6 font-bold tracking-wide">

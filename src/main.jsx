@@ -4,6 +4,7 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
@@ -13,13 +14,13 @@ import Error from './pages/Error';
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
-    path: '' ,
+    path: '/' ,
     element: <App />,
     errorElement: <Error />,
     children: [
       {
         path: '/',
-        element: <About />,
+        element: <Home />,
       },
       {
         path: '/About',
