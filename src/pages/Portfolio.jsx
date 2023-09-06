@@ -97,7 +97,7 @@ export default class Portfolio extends Component {
       <AnimatedPage>
         <div className="container mx-auto">
           <div className="p-3 px-5">
-            <h2 className="text-4xl text-center dark:text-white text-black pb-3">
+            <h2 className="text-4xl text-center text-black dark:text-white pb-3">
               Projects
             </h2>
             <Slider {...settings}>
