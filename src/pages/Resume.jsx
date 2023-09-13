@@ -28,7 +28,7 @@ export default function Resume() {
         </AnimateFromLeft>
         <ToolIcons />
 
-        <a href="/assets/documents/dinh-nguyen-resume.pdf" download="dinh-nguyen-resume.pdf" target="_blank" className="link text-blue-600 hover:scale-110"><h1>Download my full Resume</h1></a>
+        <a href="/assets/documents/Dinh Nguyen's Resume.pdf" download="Dinh Nguyen's Resume.pdf" target="_blank" className="link text-blue-600 hover:scale-110"><h1>Download my full Resume</h1></a>
         <p className="dark:text-white text-black">Icons used with the courtsey of <a target="_blank" href="https://icons8.com" className="link text-blue-600">Icons8</a></p>
       </div>
       

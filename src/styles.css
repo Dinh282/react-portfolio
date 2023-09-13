@@ -11,9 +11,6 @@
     display: none;
   }
   
-p { 
-  text-indent: 30px;
-}
   /* Show the drop down menu icon when the screen size is 600px or smaller */
   @media (max-width: 970px) {
     .navbar-end {

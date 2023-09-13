@@ -11,6 +11,7 @@ const projects = [
     imageUrl: "/assets/images/dear-diary.jpg",
     liveUrl: "https://personal-journal-e23df6a117fd.herokuapp.com/",
     githubUrl: "https://github.com/Dinh282/personal-journal.git",
+    summary: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
   },
   {
     title: "Sports Companion",
@@ -18,14 +19,15 @@ const projects = [
     imageUrl: "/assets/images/sports-companion.png",
     liveUrl: "https://dinh282.github.io/sports-companion/",
     githubUrl: "https://github.com/Dinh282/sports-companion.git",
+    summary: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
   },
   {
     title: "Weather Dashboard",
     description: "Bootstrap/CSS/Jquery/Third-Party-API",
     imageUrl: "/assets/images/weather-dashboard.png",
-    liveUrl:
-      "https://example.https://dinh282.github.io/weather-dashboard//project2",
+    liveUrl:"https://example.https://dinh282.github.io/weather-dashboard//project2",
     githubUrl: "https://github.com/Dinh282/weather-dashboard.git",
+    summary: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
   },
   {
     title: "Tech Blog",
@@ -33,6 +35,7 @@ const projects = [
     imageUrl: "/assets/images/tech-blog.png",
     liveUrl: "https://dn-tech-blog-91088954e7f1.herokuapp.com/",
     githubUrl: "https://github.com/Dinh282/tech-blog.git",
+    summary: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
   },
   {
     title: "PWA Text Editor",
@@ -40,6 +43,7 @@ const projects = [
     imageUrl: "/assets/images/pwa-text-editor.png",
     liveUrl: "https://still-anchorage-67038-17721ce39121.herokuapp.com/",
     githubUrl: "https://github.com/Dinh282/pwa-text-editor.git",
+    summary: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
   },
   {
     title: "Chore Buddy",
@@ -47,6 +51,7 @@ const projects = [
     imageUrl: "/assets/images/ss-landing-page.jpg",
     liveUrl: "https://chore-buddy-6e6d2559dc60.herokuapp.com/",
     githubUrl: "https://github.com/Dinh282/chore-buddy.git",
+    summary: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
   },
 ];
 
@@ -76,7 +81,7 @@ export default class Portfolio extends Component {
           },
         },
         {
-          breakpoint: 1200,
+          breakpoint: 1300,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
@@ -84,7 +89,7 @@ export default class Portfolio extends Component {
           },
         },
         {
-          breakpoint: 800,
+          breakpoint: 1030,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -105,6 +110,7 @@ export default class Portfolio extends Component {
                 <Project
                   key={index}
                   title={project.title}
+                  summary={project.summary}
                   description={project.description}
                   imageUrl={project.imageUrl}
                   liveUrl={project.liveUrl}
